@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--通用颜色-->
+    <color name="common_color_white">#ffffffff</color>
+    <color name="common_color_black">#ff000000</color>
+    <color name="common_text_color_white">#ffffffff</color>
+    <color name="common_colorPrimary">#1F86ED</color>
+    <color name="common_colorPrimaryDark">#303F9F</color>
+    <color name="common_colorAccent">#FF4081</color>
+    <color name="common_color_line">#e1e1e1</color>
+    <color name="common_color_minLine">#f1f0f5</color>
+    <color name="common_color_maxminLine">#F5F5F5</color>
+    <color name="common_color_red">#e10601</color>
+    <color name="common_text_color">#999999</color>
+    <color name="common_color_orange">#FF9A14</color><!--橘黄色-->
+</resources>

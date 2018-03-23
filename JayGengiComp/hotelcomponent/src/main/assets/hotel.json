@@ -1,0 +1,37 @@
+{
+  "hotelList":[
+    {
+      "hotelNm":"乌鲁木齐明珠国际酒店",
+      "picturePath":"hotel/20170923/34971-94bc1d29-5472-47e8-b2d8-effff4cdf814.jpg",
+      "hotelAddress":"友好南路576号",
+      "regionNm":"沙依巴克区",
+      "hotelGradeNm":"五星级/豪华",
+      "hotelPrice":399
+    },
+    {
+      "hotelNm":"乌鲁木齐明珠国际酒店",
+      "picturePath":"hotel/20170923/34971-94bc1d29-5472-47e8-b2d8-effff4cdf814.jpg",
+      "hotelAddress":"友好南路576号",
+      "regionNm":"沙依巴克区",
+      "hotelGradeNm":"五星级/豪华",
+      "hotelPrice":399
+    },
+    {
+      "hotelNm":"乌鲁木齐明珠国际酒店",
+      "picturePath":"hotel/20170923/34971-94bc1d29-5472-47e8-b2d8-effff4cdf814.jpg",
+      "hotelAddress":"友好南路576号",
+      "regionNm":"沙依巴克区",
+      "hotelGradeNm":"五星级/豪华",
+      "hotelPrice":399
+    },
+    {
+      "hotelNm":"乌鲁木齐明珠国际酒店",
+      "picturePath":"hotel/20170923/34971-94bc1d29-5472-47e8-b2d8-effff4cdf814.jpg",
+      "hotelAddress":"友好南路576号",
+      "regionNm":"沙依巴克区",
+      "hotelGradeNm":"五星级/豪华",
+      "hotelPrice":399
+    }
+  ]
+
+}

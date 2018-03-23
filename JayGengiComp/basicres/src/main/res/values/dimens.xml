@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--规范字体大小区域开始-->
+
+    <dimen name="common_text_main">14sp</dimen><!--页面主体文字-->
+    <dimen name="common_text_top">16sp</dimen><!--头部文字大小-->
+    <dimen name="common_text_tips_big">18sp</dimen><!-- 状态提示文字大小 -->
+    <dimen name="common_text_second">12sp</dimen><!--列表次要文字-->
+    <dimen name="common_text_third">10sp</dimen><!--列表次要再次要文字-->
+    <dimen name="common_text_forth">8sp</dimen><!--列表次要再再次要文字-->
+
+    <!--规范字体大小区域结束-->
+    <!--特别地方使用-->
+    <dimen name="common_text_big">20sp</dimen><!--页面主体文字-->
+    <dimen name="common_text_travel_big">22sp</dimen><!--页面主体文字-->
+    <dimen name="common_side_letter_bar_width">36dp</dimen><!--选择城市-->
+</resources>

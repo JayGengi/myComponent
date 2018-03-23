@@ -1,0 +1,33 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+    buildToolsVersion rootProject.ext.android["buildToolsVersion"]
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    resourcePrefix "common_"
+}
+
+dependencies {
+    compile "com.android.support:appcompat-v7:${rootProject.ext.android["buildToolsVersion"]}"
+    compile "com.android.support:support-v4:${rootProject.ext.android["buildToolsVersion"]}"
+    compile "com.android.support:design:${rootProject.ext.android["buildToolsVersion"]}"
+    compile "com.android.support:recyclerview-v7:${rootProject.ext.android["buildToolsVersion"]}"
+    compile "com.android.support:cardview-v7:${rootProject.ext.android["buildToolsVersion"]}"
+    compile "com.android.support:palette-v7:${rootProject.ext.android["buildToolsVersion"]}"
+}

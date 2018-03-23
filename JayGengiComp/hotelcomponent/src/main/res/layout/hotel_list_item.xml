@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ratingbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingLeftPercent="3%w"
+        app:layout_paddingRightPercent="3%w"
+        android:background="@drawable/common_default_selector"
+        >
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_marginTopPercent="3%w"
+            app:layout_marginBottomPercent="3%w"
+            >
+
+            <ImageView
+                android:id="@+id/hotelPic"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_widthPercent="21%w"
+                app:layout_heightPercent="21%w"
+                android:src="@drawable/hotel_img"
+                android:layout_gravity="center_vertical"
+                />
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_marginLeftPercent="3%w"
+                >
+                <!--酒店名和价格-->
+                <com.zhy.android.percent.support.PercentRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    >
+                    <!--酒店名-->
+                    <TextView
+                        android:id="@+id/hotelNm"
+                        android:layout_toLeftOf="@+id/hotelPrc"
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/common_color_black"
+                        android:textSize="@dimen/common_text_main"
+                        android:ellipsize="end"
+                        />
+                    <TextView
+                        android:id="@+id/hotelPrc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/txt_up"
+                        android:textColor="@color/common_color_red"
+                        android:textSize="@dimen/common_text_top"
+                        />
+                    <TextView
+                        android:id="@+id/txt_up"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        app:layout_marginLeftPercent="1%w"
+                        app:layout_marginTopPercent="1.5%w"
+                        android:text="@string/hotel_hotellist_rise"
+                        android:textColor="@color/common_text_color"
+                        android:textSize="@dimen/common_text_second"
+                        />
+                </com.zhy.android.percent.support.PercentRelativeLayout>
+
+                <!--区域/星级-->
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_marginTopPercent="1%w"
+                    >
+                    <!--区域-->
+                    <TextView
+                        android:id="@+id/hotelRegion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/common_text_color"
+                        android:textSize="@dimen/common_text_second"
+                        />
+                    <!--星级-->
+                    <TextView
+                        android:id="@+id/hotelGrade"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_marginLeftPercent="5%w"
+                        android:textColor="@color/common_text_color"
+                        android:textSize="@dimen/common_text_second"
+                        />
+                </com.zhy.android.percent.support.PercentLinearLayout>
+
+                <!--酒店地址-->
+                <TextView
+                    android:id="@+id/hotelAdd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="@color/common_text_color"
+                    android:textSize="@dimen/common_text_second"
+                    app:layout_marginTopPercent="1%w"
+                    />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/common_color_line"
+        android:layout_below="@+id/content"
+        />
+</com.zhy.android.percent.support.PercentRelativeLayout>
