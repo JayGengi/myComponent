@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sdwfqin.quick:imageLoader-1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/imageLoader-1.0.1.aar/a5cabef5bdd97de34b11b9144c52b2e1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/imageLoader-1.0.1.aar/a5cabef5bdd97de34b11b9144c52b2e1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sdwfqin.quick/imageLoader/1.0.1/ad9da7adb388832c1f4fdd12eab87bca326bc7f3/imageLoader-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

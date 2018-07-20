@@ -27,7 +27,7 @@ android {
 }
 
 dependencies {
-    compile project(':componentlib')
-    compile project(':basiclib')
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':componentlib')
+    api project(':basiclib')
+    api fileTree(include: ['*.jar'], dir: 'libs')
 }

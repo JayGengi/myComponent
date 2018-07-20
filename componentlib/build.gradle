@@ -31,8 +31,8 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile "com.android.support:appcompat-v7:${rootProject.ext.android["buildToolsVersion"]}"
+    api fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation "com.android.support:appcompat-v7:${rootProject.ext.android["buildToolsVersion"]}"
 }
 def sdk_appendix = "baselib"
 def sdk_baseName = "component"

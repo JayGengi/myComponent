@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sdwfqin.quicklib:paylib-1.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/paylib-1.0.3.aar/f084e821841ffd40eaa9b6d43bda020b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/paylib-1.0.3.aar/f084e821841ffd40eaa9b6d43bda020b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/paylib-1.0.3.aar/f084e821841ffd40eaa9b6d43bda020b/jars/libs/alipaySdk-20180403.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sdwfqin.quicklib/paylib/1.0.3/125d3796d2fd1368dd40bd605c8fd91dc9e47c55/paylib-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
