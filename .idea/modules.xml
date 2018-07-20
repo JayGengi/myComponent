@@ -10,7 +10,6 @@
       <module fileurl="file://$PROJECT_DIR$/componentservice/componentservice.iml" filepath="$PROJECT_DIR$/componentservice/componentservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/hotelcomponent/hotelcomponent.iml" filepath="$PROJECT_DIR$/hotelcomponent/hotelcomponent.iml" />
       <module fileurl="file://$PROJECT_DIR$/myComponent.iml" filepath="$PROJECT_DIR$/myComponent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/sceniccomponent/sceniccomponent.iml" filepath="$PROJECT_DIR$/sceniccomponent/sceniccomponent.iml" />
     </modules>
   </component>
